@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loading</title>
+</head>
+<body>
+    <h1>Loading...</h1>
+    <div class="loader"></div> <!-- Add CSS for a loading animation -->
+    <script>
+        setTimeout(function() {
+            window.location.href = '{% url "driverfound" %}';
+        }, 3000); // Redirect after 3 seconds
+    </script>
+</body>
+</html>
