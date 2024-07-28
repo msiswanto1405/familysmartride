@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GrabSmartFamily</title>
+</head>
+<body>
+    <h1>GrabSmartFamily</h1>
+    <p>Choosing a suitable driver profile...</p>
+    <script>
+        setTimeout(function() {
+            window.location.href = '{% url "loading" %}';
+        }, 2000); // Redirect after 2 seconds
+    </script>
+</body>
+</html>
